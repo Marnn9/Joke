@@ -1,11 +1,12 @@
 import chalk from "chalk";
 
 let colorValueA, colorValueB, colorValueC; 
+const randomValue = Math.floor(Math.random() * 255);
 
 function randomColor (){
-    colorValueA = Math.floor(Math.random() * 255);
-    colorValueB = Math.floor(Math.random() * 255);
-    colorValueC = Math.floor(Math.random() * 255);
+    colorValueA = randomValue;
+    colorValueB = randomValue;
+    colorValueC = randomValue;
 }
 
 const joke = "Why don't skeletons fight each other? Because they don't have the guts!";
